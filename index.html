@@ -1,297 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>Thành CV</title>
-	<!-- Load font awesome -->
-	<link rel="stylesheet" href="assets/vendors/font-awesome-4.7.0/css/font-awesome.min.css">
-
-	<!-- Load google font -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-
-	<!-- Load main stylesheet -->
-	<link rel="stylesheet" href="assets/css/style.css">
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="wrapper flex">
-		<div class="sidebar">
-			<div class="avatar">
-				<img src="assets/img/avatar1.png" width="215" height="215" alt="Khai Thanh" />
-				<h1 class="name">Đặng Khải Thành</h1>
-				<h4 class="job">Thực tập sinh</h4>
-			</div><!-- .avatar -->
-            
+ <aside class="profile-card">
+  <header>
+    <!-- here’s the avatar -->
+    <a target="_blank" href="tel:+84358929105">
+      <img src="avatar.png" class="hoverZoomLink">
+      <div class='frame'>
+  <div class='star'></div>
+</div>
+    </a>
 
-            <div class="module">
-				<h3 class="module__title">
-					<i class="fa fa-user circle circle--medium"></i>
-					<span>THÔNG TIN CÁ NHÂN</span>
-				</h3>
-				<div class="module__content">
-					<p>Ngày sinh: 05/01/2000.</p>
-					<p>Giới tính: Nam.</p>
-					<p>Địa chỉ:  A10, Kí túc xá Đại học Công Nghệ Thông Tin</p>
-				</div>
-			</div>
+    <!-- the username -->
+    <h1>
+            Khải Thành
+          </h1>
 
-			
-			<div class="module">
-				<h3 class="module__title">
-					<i class="fa fa-address-book-o circle circle--medium"></i>
-					<span>LIÊN HỆ</span>
-				</h3>
-				<div class="module__content">
-					<ul>
-						<!-- <li class="flex">
-							<i class="fa fa-map-marker circle circle--small circle--white"></i>
-							<div>Kí túc xá trường Đại học Công nghệ thông tin & Truyền thông</div>
-						</li> -->
-						<li class="flex">
-							<i class="fa fa-globe circle circle--small circle--white"></i>
-							<div>thanhptbb@gmail.com   </div>
-						</li>
-						<li class="flex">
-							<i class="fa fa-mobile circle circle--small circle--white"></i>
-							<div>0358929105 </div>
-						</li>
-					</ul>
-				</div>
-			</div>
+    <!-- and role or location -->
+    <h2>
+            Yêu màu hường :))
+          </h2>
 
+  </header>
 
-			<div class="module">
-				<h3 class="module__title">
-					<i class="fa fa-user circle circle--medium"></i>
-					<span>TÓM TẮT BẢN THÂN</span>
-				</h3>
-				<div class="module__content">
-					<p>Là một người có dam mê máy tính từ nhỏ.</p>
-					<p>Là một người khá rụt rè, có thể thích ứng nhanh được với môi trường mới, hứng thú trong việc tìm ra hướng giải quyết cho vấn đề.</p>
-					<p>Luôn luôn tìm cách khắc phục bằng Google trước khi đặt câu hỏi cho một người nào đó.</p>
-				</div>
-			</div><!-- End .module #1 -->
-<!-- 
-			<div class="module">
-				<h3 class="module__title">
-					<i class="fa fa-address-book-o circle circle--medium"></i>
-					<span>LIÊN HỆ</span>
-				</h3>
-				<div class="module__content">
-					<ul>
-						<li class="flex">
-							<i class="fa fa-map-marker circle circle--small circle--white"></i>
-							<div>Kí túc xá trường Đại học Công nghệ thông tin & Truyền thông</div>
-						</li>
-						<li class="flex">
-							<i class="fa fa-globe circle circle--small circle--white"></i>
-							<div>thanhptbb@gmail.com   </div>
-						</li>
-						<li class="flex">
-							<i class="fa fa-mobile circle circle--small circle--white"></i>
-							<div>0358929105 </div>
-						</li>
-					</ul>
-				</div>
-			</div> --><!-- End .module #2 -->
+  <!-- bit of a bio; who are you? -->
+  <div class="profile-bio">
 
-			<div class="module module--progress">
-				<h3 class="module__title">
-					<i class="fa fa-graduation-cap circle circle--medium"></i>
-					<span>KỸ NĂNG</span>
-				</h3>
-				<div class="module__content">
-					<ul>
-						<li class="flex">
-						
-							<div class="flex--1">
-								<span>Adobe Photoshop</span>
-								<span class="progress-bar"><span style="width:40%"></span></span>
-							</div>
-						</li>
-						<li class="flex">
-						
-							<div class="flex--1">
-								<span>Giao tiếp</span>
-								<span class="progress-bar"><span style="width:50%"></span></span>
-							</div>
-						</li>
-						<li class="flex">
-						
-							<div class="flex--1">
-								<span>Làm việc nhóm</span>
-								<span class="progress-bar"><span style="width:70%"></span></span>
-							</div>
-						</li>
-						<li class="flex">
-						
-							<div class="flex--1">
-								<span>Thuyết trình</span>
-								<span class="progress-bar"><span style="width:50%"></span></span>
-							</div>
-						</li>
-						<li class="flex">
-							
-							<div class="flex--1">
-								<span>Tin học văn phòng</span>
-								<span class="progress-bar"><span style="width:40%"></span></span>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div><!-- End .module #3 -->
-			
-		</div><!-- End .sidebar -->
-		<div class="content">
-			<div class="section">
-				<h2 class="section__title">
-					<i class="fa fa-briefcase circle circle--large"></i>
-					<span>HỌC VẤN</span>
-				</h2>
-				<div class="section__content">
-					<div class="module">
-						<h3 class="module__title">Trình độ học vấn</h3>
-						<div class="module__meta">
-							<span><i class="fa fa-building-o"></i>ICTU</span>
-							<span><i class="fa fa-calendar"></i>2018 - nay</span>
-						</div>
-						<div class="module__content">
-							<p>Chuyên ngành Công nghệ thông tin <br>(Chưa tốt nghiệp và chưa được học chuyên nghành) <br> Điểm tổng kết kì gần nhất (tính theo thang điểm 10): 7.51</p>
-						</div>
-					</div><!-- End .module #4 -->
+    <p>
+      Có một câu nói rất hay: " Chúng ta rồi sẽ tiếc nuối những điều chúng ta vô tình đánh mất, không phải câu chuyện buồn nào cũng để quên đi"
+    </p>
 
-				</div><!-- End .section__content -->
-			</div><!-- End .section #1 --> 
+  </div>
 
-			<div class="section">
-				<h2 class="section__title">
-					<i class="fa fa-briefcase circle circle--large"></i>
-					<span>HOẠT ĐỘNG</span>
-				</h2>
-				<div class="section__content">
-					<div class="module">
-						<h3 class="module__title">CLB Tuyên truyền và vận động hiến máu trường ĐH CNTT</h3>
-						<div class="module__meta">
-							<!-- <span><i class="fa fa-building-o"></i>ICTU</span> -->
-							<span><i class="fa fa-calendar"></i>12/2018 - 05/2019</span>
-						</div>
-						<div class="module__content">
-							<p>Tình nguyện viên <br> Hỗ trợ, chăm sóc người hiến máu nhân đạo</p>
-						</div>
-					</div><!-- End .module #4 -->
+  <!-- some social links to show off -->
+  <ul class="profile-social-links">
+    <li>
 
-				</div>
-
-			<div class="section">
-				<h2 class="section__title">
-					<i class="fa fa-briefcase circle circle--large"></i>
-					<span>KINH NGHIỆM LÀM VIỆC</span>
-				</h2>
-				<div class="section__content">
-					<div class="module">
-						<h3 class="module__title">DỊCH THUẬT</h3>
-						<div class="module__meta">
-							<span><i class="fa fa-building-o"></i>Không rõ</span>
-							<span><i class="fa fa-calendar"></i>Không rõ</span>
-						</div>
-						<div class="module__content">
-							<p>Có kinh nghiệm dịch content từ tiếng Anh qua tiếng Việt. </p>
-						</div>
-					</div><!-- End .module #7 -->
-
-					<div class="module">
-						<h3 class="module__title">Nhân viên TRÔNG COI</h3>
-						<div class="module__meta">
-							<span><i class="fa fa-building-o"></i>HOANG ANH</span>
-							<span><i class="fa fa-calendar"></i>2019-2020</span>
-						</div>
-						<div class="module__content">
-							<p>Liên tục nắm bắt tâm lý khách hàng, làm việc theo yêu cầu của khách hàng. Công việc yêu cầu giao tiếp nhiều và phục vụ khiến cho khách hàng vừa lòng để giữ chân khách hàng.</p>
-						</div>
-					</div><!-- End .module #8 -->
-					<!-- <div class="module">
-						<h3 class="module__title">Nhân viên TRÔNG COI</h3>
-						<div class="module__meta">
-							<span><i class="fa fa-building-o"></i>HOANG ANH</span>
-							<span><i class="fa fa-calendar"></i>2019-2020</span>
-						</div>
-						<div class="module__content">
-							<p>Liên tục nắm bắt tâm lý khách hàng, làm việc theo yêu cầu của khách hàng. Công việc yêu cầu giao tiếp nhiều và phục vụ khiến cho khách hàng vừa lòng để giữ chân khách hàng.</p>
-						</div>
-					</div> -->
-				</div><!-- End .section__content -->
-			</div><!-- End .section #2 -->
-
-
-			<!-- <h2 class="section__title">
-					<i class="fa fa-briefcase circle circle--large"></i>
-					<span>KINH NGHIỆM LÀM VIỆC</span>
-				</h2>
-				<div class="section__content">
-					<div class="module">
-						<h3 class="module__title">DỊCH THUẬT</h3>
-						<div class="module__meta">
-							<span><i class="fa fa-building-o"></i>Không rõ</span>
-							<span><i class="fa fa-calendar"></i>Không rõ</span>
-						</div>
-						<div class="module__content">
-							<p>Có kinh nghiệm dịch content từ tiếng Anh qua tiếng Việt. </p>
-						</div>
-					</div> -->
-
-			<div class="section">
-				<h2 class="section__title">
-					<i class="fa fa-briefcase circle circle--large"></i>
-					<span>Mục tiêu</span>
-				</h2>
-				<div class="section__content">
-					<div class="module">
-						<!-- <h3 class="module__title">Người tạo content</h3>
-						<div class="module__meta">
-							<span><i class="fa fa-building-o"></i>Không rõ</span>
-							<span><i class="fa fa-calendar"></i>Không rõ</span>
-						</div> -->
-						<div class="module__content">
-							<p>Mong muốn được làm việc trong môi trường chuyên nghiệp nhằm học hỏi những kinh nghiệm - kiến thức bổ ích, nâng cao kĩ năng và trình độ của bản thân
-							<br>
-						    <b>Mục tiêu ngắn hạn:</b> Làm tốt mọi công việc được giao.
-						    <br>
-						    <b>Mục tiêu dài hạn:</b> Phấn đấu trở thành một nhân viên tốt. </p>
-						</div>
-					</div><!-- End .module #7 -->
-
-
-
-
-					
-
-					</div><!-- End .module #8 -->
-					<div class="section">
-				<h2 class="section__title">
-					<i class="fa fa-briefcase circle circle--large"></i>
-					<span>KĨ NĂNG KHÁC</span>
-				</h2>
-				<div class="section__content">
-					<div class="module">
-						<!-- h3 class="module__title">CLB Tuyên truyền và vận động hiến máu trường ĐH CNTT</h3>
-						<div class="module__meta"> -->
-							<!-- <span><i class="fa fa-building-o"></i>ICTU</span> -->
-							<!-- <span><i class="fa fa-calendar"></i>12/2018 - 05/2019</span> -->
-						</div>
-						<div class="module__content">
-							<p>- Kỹ năng làm việc: Có khả năng sắp xếp công việc, quản lý thời gian, tập trung
-cao, dễ dàng làm việc cá nhân hoặc làm việc theo nhóm.
-</p>
-						</div>
-					</div><!-- End .module #4 -->
-
-				</div>
-				</div><!-- End .section__content -->
-			</div><!-- End .section #2 -->
-
-			
-				</div><!-- End .section__content -->
-			</div><!-- End .section #3 -->
-		</div><!-- End .content -->
-	</div><!-- End .wrapper -->
+      <a target="_blank" href="https://www.facebook.com/thanhhsun">
+      	<img src="fb.png">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a target="_blank" href="https://zalo.me/84358929105">
+      	<img src="zalo-icon.png">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a target="_blank" href="https://www.instagram.com/thanhhsun/">
+      	<img src="CF-Instagram-Icon-2017-768x768.png">
+        <i class="fa fa-github"></i>
+      </a>
+    </li>
+    <li>
+      <a target="_blank" href="0358929105">
+      	<img src="tele2.png">
+       
+        <i class="fa fa-behance"></i>
+      </a>
+    </li>
+  </ul>
+</aside>
 </body>
 </html>
